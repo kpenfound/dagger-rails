@@ -1,0 +1,11 @@
+extend type Query {
+  rails: Rails!
+}
+
+type Rails {
+  script(source: FSID!, runArgs: [String!]): Filesystem!
+}
+
+extend type Filesystem {
+  rails(runArgs: [String!]): Filesystem!
+}
