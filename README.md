@@ -7,6 +7,14 @@ A dagger extension for rails operations
 ## TODO
 - TODO
 
+## Include this in your cloak.yaml
+```yaml
+  - git:
+      remote: git@github.com:kpenfound/dagger-rails.git
+      ref: main
+      path: cloak.yaml
+```
+
 ## Example
 ```gql
 {
