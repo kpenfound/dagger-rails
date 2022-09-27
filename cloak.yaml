@@ -4,6 +4,6 @@ extensions:
     sdk: ts
 dependencies:
   - git:
-      remote: git@github.com:dagger/dagger.git
+      remote: https://github.com/dagger/dagger.git
       ref: cloak
       path: examples/alpine/cloak.yaml
